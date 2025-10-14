@@ -33,10 +33,6 @@ bench --site your-site-name install-app autozone
 bench restart
 ```
 
-## 📞 Support
-
-- 📧 Email: support@autozonepro.com
-- 🐛 Issues: [GitHub Issues](https://github.com/Ernestbent/Autozone-Professional-Ltd/issues)
 
 ## 📄 License
 
