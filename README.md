@@ -13,7 +13,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 cd ~/frappe-bench
 
 # Get the app from GitHub (replace URL with your repo URL)
-bench get-app https://github.com/YourUsername/autozone-app.git --branch develop
+bench get-app https://github.com/Ernestbent/Autozone-Professional-Ltd.git --branch develop
 
 # Install the app on your site
 bench --site your-site-name install-app autozone
