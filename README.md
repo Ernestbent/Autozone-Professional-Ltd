@@ -1,6 +1,6 @@
 # Autozone Pro Ltd
 
-![Autozone Pro Ltd Logo](docs/images/autozone_logo.png)
+![Autozone Pro Ltd Logo](images.png)
 
 This application contains all customizations and scripts for Autozone Pro Ltd, including client scripts, server scripts, and background jobs.
 
