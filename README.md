@@ -1,6 +1,6 @@
 <div align="center">
 
-# ![Autozone Pro Ltd Logo](image.png) 
+# ![Autozone Pro Ltd Logo](images.png) 
 
 **Professional Automotive Solutions for Frappe/ERPNext**
 
