@@ -1,14 +1,53 @@
-# Autozone Pro Ltd
+<div align="center">
 
-![Autozone Pro Ltd Logo](images.png)
+# 🚗 Autozone Pro Ltd
 
-This application contains all customizations and scripts for Autozone Pro Ltd, including client scripts, server scripts, and background jobs.
+**Professional Automotive Solutions for Frappe/ERPNext**
 
-## Installation
+</div>
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+---
+
+## 📋 About
+
+Autozone Pro Ltd is a comprehensive Frappe app featuring custom client scripts, server scripts, and background jobs tailored for automotive business management.
+
+## ✨ Features
+
+- 🎯 **Client Scripts** - Enhanced forms and user experience
+- ⚙️ **Server Scripts** - Business logic and automation
+- 🔄 **Background Jobs** - Scheduled tasks and maintenance
+- 🛠️ **Custom Modules** - Industry-specific solutions
+
+## 🚀 Installation
 
 ```bash
+# Get the app
 cd ~/frappe-bench
 bench get-app https://github.com/Ernestbent/Autozone-Professional-Ltd.git --branch develop
+
+# Install on your site
 bench --site your-site-name install-app autozone
+
+# Restart
+bench restart
+```
+
+## 📞 Support
+
+- 📧 Email: support@autozonepro.com
+- 🐛 Issues: [GitHub Issues](https://github.com/Ernestbent/Autozone-Professional-Ltd/issues)
+
+## 📄 License
+
+MIT License
+
+---
+
+<div align="center">
+
+**Made with ❤️ by Autozone Pro Ltd**
+
+⭐ Star us on GitHub!
+
+</div>
