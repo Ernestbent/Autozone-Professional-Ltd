@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 About
+## About
 
 Autozone Pro Ltd is a comprehensive Frappe app featuring custom client scripts, server scripts, and background jobs tailored for automotive business management.
 
@@ -17,7 +17,7 @@ Autozone Pro Ltd is a comprehensive Frappe app featuring custom client scripts, 
 - 🔄 **Background Jobs** - Scheduled tasks and maintenance
 - 🛠️ **Custom Module** - Industry-specific solutions
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # Get the app
