@@ -1,41 +1,47 @@
-### Autozone Pro Ltd
+<div align="center">
 
-This Application contains all customizations and scripts
+# ![Autozone Pro Ltd Logo](images.png) 
 
-### Installation
+</div>
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+---
+
+## About
+
+Autozone Pro Ltd is a comprehensive Frappe app featuring custom client scripts, server scripts, and background jobs tailored for automotive business management.
+
+## ✨ Features
+
+- **Client Scripts** - Enhanced forms and user experience
+- **Server Scripts** - Business logic and automation
+- **Background Jobs** - Scheduled tasks and maintenance
+- **Custom Module** - Industry-specific solutions
+
+## Installation
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app autozone
+# Get the app
+cd ~/frappe-bench
+bench get-app https://github.com/Ernestbent/Autozone-Professional-Ltd.git --branch develop
+
+# Install on your site
+bench --site your-site-name install-app autozone
+
+# Restart
+bench restart
 ```
 
-### Contributing
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## 📄 License
 
-```bash
-cd apps/autozone
-pre-commit install
-```
+MIT License
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+---
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+<div align="center">
 
-### CI
+**Made with ❤️ by Autozone Pro Ltd**
 
-This app can use GitHub Actions for CI. The following workflows are configured:
+⭐ Star us on GitHub!
 
-- CI: Installs this app and runs unit tests on every push to `develop` branch.
-- Linters: Runs [Frappe Semgrep Rules](https://github.com/frappe/semgrep-rules) and [pip-audit](https://pypi.org/project/pip-audit/) on every pull request.
-
-
-### License
-
-mit
+</div>
