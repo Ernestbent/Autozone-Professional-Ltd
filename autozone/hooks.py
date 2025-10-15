@@ -4,6 +4,7 @@ app_publisher = "Othieno Benedict Ernest"
 app_description = "This Application contains all customizations and scripts"
 app_email = "ernestben69@gmail.com"
 app_license = "mit"
+app_version = "2.0.0"
 
 # Apps
 # ------------------
