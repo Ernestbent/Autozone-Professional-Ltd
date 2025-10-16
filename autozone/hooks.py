@@ -45,9 +45,9 @@ app_version = "2.0.0"
 
 # include js in doctype views
 doctype_js = {
-    "Customer" : [
-        "public/js/100_percent_contribution.js"
-    ],
+    # "Customer" : [
+    #     "public/js/100_percent_contribution.js"
+    # ],
     "Payment Entry": [
         "public/js/check_duplicate_mobile_money.js",
         "public/js/check_reference_no.js",
@@ -66,7 +66,8 @@ doctype_js = {
         "public/js/show_sales_person.js",
         "public/js/status_display.js",
         "public/js/total_discount.js",
-        "public/js/workflow_colors.js"
+        "public/js/workflow_colors.js",
+        "public/js/100_percent_contribution.js"
     ],
     "Sales Invoice Item":[
         "public/js/default_discount_account.js"
