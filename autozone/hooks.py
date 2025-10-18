@@ -45,9 +45,9 @@ app_version = "2.0.0"
 
 # include js in doctype views
 doctype_js = {
-    # "Customer" : [
-    #     "public/js/100_percent_contribution.js"
-    # ],
+    "Customer" : [
+        "public/js/100_percent_contribution.js"
+    ],
     "Payment Entry": [
         "public/js/check_duplicate_mobile_money.js",
         "public/js/check_reference_no.js",
