@@ -45,7 +45,7 @@ app_version = "2.0.0"
 
 # include js in doctype views
 doctype_js = {
-    "Customer" : [
+    "Sales Person" : [
         "public/js/100_percent_contribution.js"
     ],
     "Payment Entry": [
@@ -54,7 +54,7 @@ doctype_js = {
         "public/js/payment_entry_default_ref_no.js",
     ],
     "Sales Order Item":[
-        "public/js/current_stock_quantity.js",
+        # "public/js/current_stock_quantity.js",
         "public/js/default_discount_account.js"
     ],
     "Sales Order":[
@@ -67,13 +67,20 @@ doctype_js = {
         "public/js/status_display.js",
         "public/js/total_discount.js",
         "public/js/workflow_colors.js",
-        "public/js/100_percent_contribution.js"
+        "public/js/100_percent_contribution.js",
+        "public/js/default_qty_for _P25.js",
+        "public/js/default_warehouse.js",
+        "public/js/discount_percentage.js",
+        "public/js/current_stock_quantity.js",
+        "public/js/show_action_button.js",
+        "public/js/cancelled_show.js"
     ],
     "Sales Invoice Item":[
         "public/js/default_discount_account.js"
     ],
     "Item Price":[
-        "public/js/default_discount_account.js"
+        "public/js/default_discount_account.js",
+        "public/js/display_quantity_available.js"
     ],
     "Sales Invoice":[
         "public/js/hide_invoice_cancel_for_store.js"
