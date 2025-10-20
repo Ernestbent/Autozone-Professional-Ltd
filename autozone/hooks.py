@@ -83,7 +83,8 @@ doctype_js = {
         "public/js/display_quantity_available.js"
     ],
     "Sales Invoice":[
-        "public/js/hide_invoice_cancel_for_store.js"
+        "public/js/hide_invoice_cancel_for_store.js",
+        "public/js/default_discount_account.js",
     ],
     "Journal Entry":[
         "public/js/journal_entry_ref_no.js"
@@ -280,4 +281,10 @@ scheduler_events = {
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
+
+fixtures = [
+    "Workflow",
+    "Workflow State",
+    "Workflow Action Master"
+]
 
